@@ -1,4 +1,5 @@
 @import url("../css/awesome.css");
+@import url("../css/pricing.css");
 @import url("../css/cdn.css");
 
 * {
@@ -19,8 +20,8 @@ html {
   margin: auto;
 }
 section,
-footer{
-    padding: 80px 0;
+footer {
+  padding: 80px 0;
 }
 .title {
   color: #212121;
@@ -29,7 +30,9 @@ footer{
   font-weight: 400;
   text-align: center;
   margin-bottom: 34px;
+  text-transform: uppercase;
 }
-p{
-    color: #000000;
+
+p {
+  color: #000000;
 }
