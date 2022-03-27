@@ -1,0 +1,79 @@
+.customers-title {
+  margin-bottom: 67px;
+}
+.customers-title-text p {
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.customers-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customers-item {
+  width: 298px;
+}
+.customers-item-response {
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  padding: 7px 22px;
+  margin-bottom: 22px;
+  position: relative;
+}
+.customers-item-response::before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border-top: 15px solid #e2e2e2;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 40px;
+}
+
+.customers-item-response p {
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.customers-item-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+.customers-item-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.customers-item-card-img img {
+  width: 100%;
+}
+.customers-item-card-id {
+    margin-top: 8px;
+}
+.customers-item-card-id-person {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+  margin-left: 45px;
+  margin-bottom: 12px;
+}
+.customers-item-card-id-position {
+  font-weight: 400;
+  font-size: 14px;
+  color:#86878B;
+  margin-left: 83px;
+}
