@@ -8,7 +8,6 @@
   background-size: cover;
   padding: 58px 0;
   position: relative;
-  
 }
 .axure::after {
   content: "";
@@ -51,26 +50,26 @@
   text-align: center;
   margin-bottom: 57px;
 }
-.axure-button{
-    position: relative;
-    z-index: 3;
-    width: 135px;
-    border: 1px solid #ffffff;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 42px;
-    color: #ffffff;
-    
-
+.axure-button {
+  position: relative;
+  z-index: 3;
+  width: 135px;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 42px;
 }
-.axure-button:hover{
-    width: 150px;
-    transition: 0.1s;
-    border-radius: 7px;
-    border-color: aqua;
-    cursor: pointer;
+.axure-button:hover {
+  width: 150px;
+  transition: 0.1s;
+  border-radius: 7px;
+  border-color: aqua;
+  cursor: pointer;
 }
-.axure-button a{
-    size: 15px;
-    font-weight: 600;
+.axure-button a {
+  size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  display: block;
+  height: 100%;
 }
