@@ -11,10 +11,12 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 -15px;
 }
 
 .customers-item {
   width: 298px;
+  margin: 0 15px;
 }
 .customers-item-response {
   background-color: #e2e2e2;
