@@ -30,9 +30,9 @@
   display: block;
   height: 0;
   width: 0;
-  border-top: 15px solid #e2e2e2;
-  border-left: 17px solid transparent;
-  border-right: 17px solid transparent;
+  border-top: 28px solid #e2e2e2;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
   position: absolute;
   top: 100%;
   left: 40px;
@@ -53,7 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: hidden; /* обрезает фото */
   width: 70px;
   height: 70px;
   border-radius: 50%;

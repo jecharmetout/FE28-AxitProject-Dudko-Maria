@@ -26,6 +26,19 @@
 /* .awesome-item-content{
     padding:2px;
 } */
+.fa-lightbulb{
+    font-size: 31px;
+    color: darkorange;
+}
+.fa-keyboard{
+    font-size: 32px;
+    color: darkorange;
+    
+}
+.fa-bolt-lightning{
+    font-size: 31px;
+    color: darkorange;
+}
 .awesome-item-img {
   display: flex;
   justify-content: center;
