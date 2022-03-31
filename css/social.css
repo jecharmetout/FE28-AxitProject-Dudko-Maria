@@ -28,8 +28,15 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .social-navigation-list-item {
   margin-left: 60px;
+  transition: 0.1s;
+}
+.social-navigation-list-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.1s;
 }
 .social-navigation-list-item:first-child {
   margin-left: 0px;
@@ -37,4 +44,8 @@
 .social-navigation-list-item a {
   color: #abacaf;
   font-size: 45px;
+}
+.social-navigation-list-item a:hover {
+  color: #ec7979;
+  transition: 0.1s;
 }

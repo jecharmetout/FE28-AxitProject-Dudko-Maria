@@ -62,13 +62,14 @@
   margin: 0 auto;
   text-align: center;
   line-height: 42px;
+  transition: 0.1s;
 }
 .axure-button:hover {
-  width: 150px;
-  transition: 0.1s;
+  transform: scale(1.1);
   border-radius: 7px;
-  border-color: aqua;
+  border-color: #adff2be0;
   cursor: pointer;
+  transition: 0.1s;
 }
 .axure-button a {
   size: 15px;

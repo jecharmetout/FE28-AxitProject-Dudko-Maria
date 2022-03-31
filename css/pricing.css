@@ -24,11 +24,15 @@
 }
 .pricing-list {
   width: 340px;
-  height: 467px;
   text-align: center;
   color: #ffffff;
   margin: 0 15px;
-  box-shadow: 17px -16px 20px 0px rgb(181 182 189)
+  box-shadow: 17px -16px 20px 0px rgb(181 182 189);
+  transition: 1s;
+}
+.pricing-list:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .pricing-list-tariff {
   font-weight: 700;
@@ -36,7 +40,6 @@
   line-height: 50px;
   background-color: #333333;
   margin-bottom: 1px;
-  
 }
 .pricing-list-cost {
   font-family: "Raleway", sans-serif;
@@ -45,7 +48,6 @@
   line-height: 100px;
   margin-bottom: 1px;
   background-color: #333333;
-  
 }
 .pricing-list-note {
   font-weight: 600;

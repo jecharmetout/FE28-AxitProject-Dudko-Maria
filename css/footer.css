@@ -13,8 +13,13 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  transition: 0.1s;
 }
-
+.footer-navigation-list-item:hover{
+    cursor: pointer;
+    transform: scale(1.9);
+    transition: 0.1s;
+}
 .footer-navigation-list-item {
   margin-left: 30px;
 }
@@ -31,4 +36,8 @@
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   margin-top: 18px;
+}
+.footer-navigation-list-item a:hover{
+    color: #ffffff;
+    transition: 0.1s;
 }
