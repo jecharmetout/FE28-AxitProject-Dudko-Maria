@@ -21,7 +21,8 @@
 }
 .customers-item:hover{
   transform: scale(1.1);
-  box-shadow: 0 0 0 0 rgba(255 255 255 0.5);
+  transition: 0.1s;
+  cursor: pointer;
 }
 .customers-item-response {
   background-color: #e2e2e2;
