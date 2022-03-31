@@ -1,13 +1,12 @@
 .footer {
   padding-top: 15px;
   background: #000000;
- height: 100px;
+  height: 100px;
 }
-.footer-navigation{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.footer-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer-navigation-list {
   display: flex;
@@ -17,19 +16,19 @@
 }
 
 .footer-navigation-list-item {
-    margin-left: 30px;
+  margin-left: 30px;
 }
-
-.footer-navigation-list-item a{
-    font-size: 20px;
-    color: #abacaf;
+.footer-navigation-list-item:first-child {
+  margin-left: 0px;
 }
-.footer-author p{
-    font-size: 12px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    margin-top: 18px;
-
-
+.footer-navigation-list-item a {
+  font-size: 20px;
+  color: #abacaf;
+}
+.footer-author p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-top: 18px;
 }
