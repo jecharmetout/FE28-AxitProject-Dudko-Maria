@@ -38,7 +38,7 @@
 .navigation-list-item a:hover {
     color: #ec7979;
     /* text-decoration: underline; */
-    border-bottom: 2px solid #ec7979;
+    border-bottom: 3px solid #ec7979;
     transition: 0.1s;
     
   }
