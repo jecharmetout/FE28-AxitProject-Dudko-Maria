@@ -1,7 +1,40 @@
+.social {
+  background: #f8efef;
+}
+.social-description {
+  margin-top: 14px;
+}
+.social-description-text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  width: 365px;
+  margin-bottom: 17px;
+}
 .social-title {
   font-size: 20px;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 14px;
   color: #333333;
+}
+.social-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social-navigation-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.social-navigation-list-item {
+  margin-left: 60px;
+}
+.social-navigation-list-item:first-child {
+  margin-left: 0px;
+}
+.social-navigation-list-item a {
+  color: #abacaf;
+  font-size: 45px;
 }
