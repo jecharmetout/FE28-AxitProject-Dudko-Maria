@@ -29,7 +29,19 @@
 }
 .navigation-list-item {
   margin-left: 48px;
+  transition:0.1s;
 }
+.navigation-list-item:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.navigation-list-item a:hover {
+    color: #ec7979;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid #ec7979;
+    transition: 0.1s;
+    
+  }
 .navigation-list-item:first-child {
   margin-left: 0px;
 }
@@ -38,4 +50,5 @@
   font-weight: 600;
   font-size: 15px;
   margin: 20px 0;
+  
 }
