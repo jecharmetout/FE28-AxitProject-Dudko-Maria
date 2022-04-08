@@ -1,12 +1,9 @@
 .axure {
-  margin: auto;
-  /* max-width: 1440px; */
-  /* height: 325px; */
   background: url("../img/bg/background\ 1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 58px 0;
+  padding: 58px 0 38px;
   position: relative;
 }
 .axure::after {
@@ -16,8 +13,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -41,14 +36,14 @@
 .axure-title::after {
   content: "";
   display: block;
-  border: 1px solid #ffffff;
+  border: 0.5px solid #ffffff;
   width: 64px;
   margin: 34px auto;
 }
 .axure-text p {
   /* position: relative;
   z-index: 3; */
-  color: #ffffff;
+  color:rgba(255, 255, 255, 0.8);
   font-size: 16px;
   font-weight: 300;
   text-align: center;

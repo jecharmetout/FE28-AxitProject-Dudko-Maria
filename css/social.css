@@ -1,27 +1,27 @@
 .social {
   background: #f8efef;
+  padding: 15px 0;
 }
 .social-description {
-  margin-top: 14px;
+  width: 365px;
+  margin: 0 15px;
 }
 .social-description-text p {
   font-size: 14px;
   font-weight: 400;
   color: #86878b;
-  width: 365px;
-  margin-bottom: 17px;
+  
 }
 .social-title {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 14px;
   color: #333333;
+  line-height: 27px;
 }
-.social-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+
+.social-navigation{
+  margin: 0 15px;
 }
 .social-navigation-list {
   display: flex;
@@ -40,9 +40,10 @@
 }
 .social-navigation-list-item:first-child {
   margin-left: 0px;
+  transition: 0.1s;
 }
 .social-navigation-list-item a {
-  color: #abacaf;
+  color: rgb(201, 201, 201);;
   font-size: 45px;
 }
 .social-navigation-list-item a:hover {

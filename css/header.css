@@ -2,20 +2,14 @@
   padding: 20px 0;
   background: #000000;
 }
-.header-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-bottom: 5px;
-  
-}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: #ffffff;
-  /* margin: 20px 0; */
+  text-transform: uppercase;
+  display: block;
 }
 .logo::after {
   content: "IT";
@@ -24,13 +18,15 @@
   font-weight: 400;
   font-size: 30px;
   color: #ec7979;
+  text-transform: uppercase;
 }
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .navigation-list-item {
   margin-left: 48px;
-  transition:0.1s;
+  cursor: pointer;
 }
 .navigation-list-item:hover{
     transform: scale(1.1);
@@ -45,11 +41,14 @@
   }
 .navigation-list-item:first-child {
   margin-left: 0px;
+  cursor: pointer;
 }
 .navigation-list-item a {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 600;
   font-size: 15px;
-  margin: 20px 0;
+  /* line-height: 20px; */
+  border-bottom: 3px solid #0c0c0c;
+ 
   
 }

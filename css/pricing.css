@@ -16,12 +16,7 @@
   font-weight: 400;
   text-align: center;
 }
-.pricing-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
+
 .pricing-list {
   width: 340px;
   text-align: center;

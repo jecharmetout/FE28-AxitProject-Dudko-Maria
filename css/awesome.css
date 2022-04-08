@@ -13,12 +13,7 @@
   font-weight: 400;
   text-align: center;
 }
-.awesome-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
+
 .awesome-item {
   width: 350px;
   margin: 0 15px;

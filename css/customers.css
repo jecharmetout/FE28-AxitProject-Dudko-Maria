@@ -7,21 +7,17 @@
   font-weight: 400;
   text-align: center;
 }
-.customers-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
+
 
 .customers-item {
   width: 298px;
   margin: 0 15px;
-  transition: 0.1s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .customers-item:hover{
   transform: scale(1.1);
-  transition: 0.1s;
+  transition: 0.3s;
   cursor: pointer;
 }
 .customers-item-response {
