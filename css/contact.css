@@ -1,28 +1,36 @@
+.contact-title-text{
+  margin-bottom: 91px;
+}
 .contact-title-text p {
   color: #86878b;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 91px;
 }
 
 .contact-form-content {
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
   margin-bottom: 68px;
 }
 .form-data {
   width: 40%;
+  margin: 0 15px;
 }
 .form-item {
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
-
+.form-item:last-child {
+  margin-bottom: 0;
+}
 .form-item label {
   color: #bdbdbd;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  display:block;
+  margin-bottom: 14px;
 }
 
 .form-item input {
@@ -38,12 +46,14 @@
 }
 .form-textarea {
   width: 40%;
+  margin: 0 15px;
 }
 .form-textarea label {
   color: #bdbdbd;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  
 }
 .form-textarea textarea {
   width: 100%;
@@ -55,11 +65,10 @@
   color: #333333;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  line-height: 104px;
   resize: none;
 }
-#password-contact {
-  margin-top: 46px;
-}
+
 .contact-btn {
   display: flex;
   justify-content: center;
@@ -75,4 +84,5 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 15px;
+  cursor: pointer;
 }
