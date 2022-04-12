@@ -9,7 +9,8 @@
 }
 .awesome-title-text p {
   color: #86878b;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: center;
 }
@@ -29,16 +30,19 @@
     padding:2px;
 } */
 .fa-lightbulb{
-    font-size: 31px;
+    /* font-size: 31px; */
+    font-size: 1.9375rem;
     color: darkorange;
 }
 .fa-keyboard{
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 2rem;
     color: darkorange;
     
 }
 .fa-bolt-lightning{
-    font-size: 31px;
+    /* font-size: 31px; */
+    font-size: 1.9375rem;
     color: darkorange;
 }
 .awesome-item-img {
@@ -52,14 +56,16 @@
   margin: 0 auto 30px;
 }
 .awesome-item-title {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 16px;
   color: #333333;
 }
 .awesome-item-text p {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: center;
   width: 350px;

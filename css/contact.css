@@ -3,7 +3,8 @@
 }
 .contact-title-text p {
   color: #86878b;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: center;
 }
@@ -28,7 +29,8 @@
   color: #bdbdbd;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   display:block;
   margin-bottom: 14px;
 }
@@ -43,6 +45,7 @@
   color: #333333;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  font-size: 0.9375rem;
 }
 .form-textarea {
   width: 40%;
@@ -52,7 +55,8 @@
   color: #bdbdbd;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   
 }
 .form-textarea textarea {
@@ -65,6 +69,7 @@
   color: #333333;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  font-size: 0.9375rem;
   line-height: 104px;
   resize: none;
 }
@@ -83,6 +88,7 @@
   border: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 0.9375rem;
   cursor: pointer;
 }

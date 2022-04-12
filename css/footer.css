@@ -33,11 +33,13 @@
   transition: 0.1s;
 }
 .footer-navigation-list-item a {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   color: #abacaf;
 }
 .footer-author p {
-  font-size: 12px;
+  /* font-size: 12px; */
+  font-size: 0.75rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;

@@ -7,13 +7,15 @@
   margin: 0 15px;
 }
 .social-description-text p {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   font-weight: 400;
   color: #86878b;
   
 }
 .social-title {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 14px;
   color: #333333;
@@ -44,7 +46,8 @@
 }
 .social-navigation-list-item a {
   color: rgb(201, 201, 201);;
-  font-size: 45px;
+  /* font-size: 45px; */
+  font-size: 2.8125rem;
 }
 .social-navigation-list-item a:hover {
   color: #ec7979;

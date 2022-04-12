@@ -3,7 +3,8 @@
 }
 .customers-title-text p {
   color: #86878b;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: center;
 }
@@ -42,7 +43,8 @@
 
 .customers-item-response p {
   color: #86878b;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: center;
 }
@@ -69,14 +71,16 @@
 .customers-item-user-id-name {
   display: block;
   font-weight: 700;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
   color: #333333;
   margin-left: 45px;
   margin-bottom: 12px;
 }
 .customers-item-user-id-position {
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
   color: #86878b;
   margin-left: 83px;
 }

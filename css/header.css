@@ -6,7 +6,8 @@
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.875rem;
   color: #ffffff;
   text-transform: uppercase;
   display: block;
@@ -16,7 +17,8 @@
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.875rem;
   color: #ec7979;
   text-transform: uppercase;
 }
@@ -46,7 +48,8 @@
 .navigation-list-item a {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 600;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 0.9375rem;
   /* line-height: 20px; */
   border-bottom: 3px solid #0c0c0c;
  

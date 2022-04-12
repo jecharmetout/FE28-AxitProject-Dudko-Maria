@@ -13,7 +13,8 @@
     text-align: center;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
     font-weight: 700;
 }
 .tab-row-item:last-child{
@@ -29,7 +30,8 @@
 
 .tab-title{
     font-family: "Open Sans", sans-serif;
-    font-size:20px;
+    /* font-size:20px; */
+    font-size:1.25rem;
     font-weight:700;
     color:#333333;
     margin-bottom: 56px;
@@ -42,7 +44,8 @@
 }
 .tab-text p{
    font-family: "Open Sans", sans-serif;
-   font-size: 14px;
+   /* font-size: 14px; */
+   font-size: 0.875rem;
    font-weight: 400;
    color:#86878B;
    text-transform: uppercase;
@@ -58,10 +61,23 @@
     line-height: 41px;
     text-align: center;
     cursor: pointer;
+    animation: tab-pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
 }
+@keyframes tab-pulse{
+  50% {
+    transform: scale(1.08);
+    background-color:#EC7979;
+    box-shadow: 1.6px 1.6px 8px rgba(238, 20, 20, 0.76);
+}
+}
+
 .tab-btn a{
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
     font-weight: 600;
     color: white;
    
@@ -73,4 +89,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+.tab-img img{
+    width: 100%;
 }
