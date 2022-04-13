@@ -11,6 +11,7 @@
   color: #ffffff;
   text-transform: uppercase;
   display: block;
+  margin: 0 15px;
 }
 .logo::after {
   content: "IT";
@@ -21,6 +22,9 @@
   font-size: 1.875rem;
   color: #ec7979;
   text-transform: uppercase;
+}
+.navigation{
+  margin: 0 15px;
 }
 .navigation-list {
   display: flex;

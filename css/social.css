@@ -46,8 +46,8 @@
 }
 .social-navigation-list-item a {
   color: rgb(201, 201, 201);;
-  /* font-size: 45px; */
-  font-size: 2.8125rem;
+  /* font-size: 40px; */
+  font-size: 2.5rem;
 }
 .social-navigation-list-item a:hover {
   color: #ec7979;
